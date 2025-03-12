@@ -18,8 +18,8 @@ import { coingecko } from "@goat-sdk/plugin-coingecko";
 import { sendETH } from "@goat-sdk/wallet-evm";
 import { viem } from "@goat-sdk/wallet-viem";
 import { modeGovernance } from "@goat-sdk/plugin-mode-governance";
-import { sonicBlaze } from "./SonicBlazeTestnet/sonic";
 import {allora} from "@goat-sdk/plugin-allora";
+import { polymarket } from "@goat-sdk/plugin-polymarket";
 
 
 require("dotenv").config();
@@ -31,7 +31,7 @@ const account = privateKeyToAccount(process.env.KEY as `0x${string}`);
 const walletClient = createWalletClient({
     account: account,
     transport: http(process.env.RPC_PROVIDER_URL),
-    chain: sonicBlaze,
+    chain: modeTestnet,
 });
 
 const twilioClient = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_AUTH_TOKEN);
@@ -51,6 +51,13 @@ const twilioClient = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_A
            modeGovernance(),
            allora({ 
             apiKey: process.env.ALLORA_API_KEY, // Get it from: https://allora.network/api-access
+        }),
+        polymarket({
+            credentials: {
+                key: process.env.POLYMARKET_API_KEY as string, // API key for Polymarket operations
+                secret: process.env.POLYMARKET_SECRET as string, // API secret for authentication
+                passphrase: process.env.POLYMARKET_PASSPHRASE as string, // API passphrase for security
+            },
         }),
         ],
     });
