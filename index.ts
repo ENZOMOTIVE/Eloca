@@ -19,7 +19,6 @@ import { sendETH } from "@goat-sdk/wallet-evm";
 import { viem } from "@goat-sdk/wallet-viem";
 import { modeGovernance } from "@goat-sdk/plugin-mode-governance";
 import {allora} from "@goat-sdk/plugin-allora";
-import { polymarket } from "@goat-sdk/plugin-polymarket";
 
 
 require("dotenv").config();
@@ -50,14 +49,7 @@ const twilioClient = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_A
            // pumpfun(),
            modeGovernance(),
            allora({ 
-            apiKey: process.env.ALLORA_API_KEY, // Get it from: https://allora.network/api-access
-        }),
-        polymarket({
-            credentials: {
-                key: process.env.POLYMARKET_API_KEY as string, // API key for Polymarket operations
-                secret: process.env.POLYMARKET_SECRET as string, // API secret for authentication
-                passphrase: process.env.POLYMARKET_PASSPHRASE as string, // API passphrase for security
-            },
+            apiKey: process.env.ALLORA_API_KEY, 
         }),
         ],
     });

@@ -19,7 +19,6 @@
         "@goat-sdk/plugin-mode-governance": "^0.0.11",
         "@goat-sdk/plugin-modespray": "^0.1.7",
         "@goat-sdk/plugin-opensea": "^0.1.5",
-        "@goat-sdk/plugin-polymarket": "^0.3.13",
         "@goat-sdk/plugin-pumpfun": "^0.1.7",
         "@goat-sdk/plugin-uniswap": "^0.2.13",
         "@goat-sdk/wallet-evm": "0.2.10",
