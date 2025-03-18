@@ -20,6 +20,7 @@ import { viem } from "@goat-sdk/wallet-viem";
 import { modeGovernance } from "@goat-sdk/plugin-mode-governance";
 import {allora} from "@goat-sdk/plugin-allora";
 
+import { news } from "./TrumpNews/NewsPlugin";
 
 require("dotenv").config();
 const app = express();
@@ -51,6 +52,7 @@ const twilioClient = twilio(process.env.TWILIO_ACCOUNT_SID, process.env.TWILIO_A
            allora({ 
             apiKey: process.env.ALLORA_API_KEY, 
         }),
+        news( "3f39c44f-a133-41a8-a5e2-2ad659e94eb8") // get trump news
         ],
     });
 
