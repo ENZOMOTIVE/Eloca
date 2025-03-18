@@ -1,56 +1,39 @@
-# 🚀 SoniBo: Bridging Blockchain with WhatsApp Messaging
+# SoniBo: Bridging Blockchain with WhatsApp Messaging
 
-## Overview
-SoniBo is an **AI-powered WhatsApp-based messaging agent** built on **Mode Chain**, enabling seamless interaction with blockchain technology. With simple text commands, users can **execute on-chain transactions, send funds, swap tokens, check real-time market data, manage smart contracts, and participate in prediction markets**—all within WhatsApp.
+SoniBo is an **AI-powered WhatsApp-based messaging agent** built on **Mode Chain**, enabling seamless blockchain interactions through simple text commands. Unlike Telegram-based blockchain bots, SoniBo operates on WhatsApp—the world’s most widely used messaging platform with over **2 billion users**. This ensures **greater accessibility**, especially in regions where **financial inclusion is limited** but WhatsApp usage is high.
 
-By eliminating barriers to blockchain adoption, SoniBo makes **crypto transactions accessible, intuitive, and user-friendly**.
-
-## 🌍 Why WhatsApp?
-Unlike Telegram, which is commonly used for blockchain bots, **WhatsApp is the world’s most widely used messaging platform**, with over **2 billion users globally**. By integrating blockchain functionality directly into WhatsApp, **SoniBo removes the need for additional apps**, making crypto transactions as easy as sending a message.
-
-This approach enhances accessibility, particularly in regions where **financial inclusion is limited** but WhatsApp usage is high.
+With SoniBo, users can **send and receive crypto, swap tokens, check real-time market data, manage smart contracts, and participate in prediction markets**—all within WhatsApp. It integrates **AI-driven insights**, **secure transactions**, and **real-time news updates**, making blockchain adoption seamless and intuitive.
 
 ## 🔑 Key Features
 
-✅ **ERC-20 Token Transactions**  
-Send and receive **USDC, SEI, ETH, and other ERC-20 tokens** directly within WhatsApp.
+- **ERC-20 Transactions** – Send and receive **USDC, SEI, ETH, and other ERC-20 tokens** directly within WhatsApp.  
+- **AI Financial Assistant** – Provides **transaction recommendations, fraud detection, and cost optimization**.  
+- **CoinGecko Integration** – Get **live crypto prices, market trends, and currency conversions** instantly.  
+- **NFT Access via OpenSea** – **View, buy, and sell NFTs** without leaving WhatsApp.  
+- **Polymarket Prediction Markets** – Bet on **real-world events** with **AI-powered market insights**.  
+- **Ethereum & Cross-Chain Transactions** – Securely send **ETH and perform AI-assisted SEI-to-Polygon swaps**.  
+- **Allora AI for Market Predictions** – Get **accurate crypto price forecasts** powered by **machine learning**.  
+- **Zerepy for Blockchain Security** – Ensures **secure and private** blockchain transactions.  
+- **Custom News() Plugin** – Fetch **real-time news articles**, including **latest updates on Donald Trump** and other global events.  
 
-✅ **AI-Powered Financial Assistant**  
-AI-driven analysis for **transaction recommendations, cost optimization, and fraud detection**.
+## 🤖 AI-Powered Blockchain Transactions
+SoniBo leverages **Natural Language Processing (NLP)** to process user commands efficiently, ensuring:  
 
-✅ **CoinGecko Integration**  
-Get **real-time crypto prices, market trends, and currency conversions** instantly.
-
-✅ **NFT Access via OpenSea**  
-View, buy, and sell **NFTs on OpenSea** using WhatsApp.
-
-✅ **Polymarket Prediction Market Integration**  
-Participate in **on-chain prediction markets** and bet on real-world events.  
-AI-driven insights help users **make informed predictions**.
-
-✅ **Ethereum & Cross-Chain Transactions**  
-Send **ETH securely via WhatsApp**.  
-AI-assisted **SEI-to-Polygon swaps** for cross-chain transactions.
-
-✅ **Allora Integration for AI-Driven Market Predictions**  
-**Allora AI** is integrated to provide **accurate future price predictions**, helping users make informed investment decisions.
-
-✅ **Zerepy for Enhanced Blockchain Security**  
-**Zerepy** ensures **secure and private** blockchain interactions, enhancing data protection and fraud prevention.
-
-## 🤖 How SoniBo Advances AI in Blockchain
-SoniBo integrates **AI agents** to simplify blockchain transactions, using **Natural Language Processing (NLP)** to process user commands seamlessly. AI ensures:
-- **Fraud prevention** through transaction pattern analysis
-- **Cost optimization** by finding the best transaction routes
-- **Automated insights** for smart decision-making
-- **AI-driven future price predictions** with **Allora**
+✅ **Fraud detection** via **transaction pattern analysis**  
+✅ **Optimized transaction routes** for **cost-effective trades**  
+✅ **AI-driven insights** for **informed financial decisions**  
+✅ **Future price predictions** powered by **Allora AI**  
 
 ## 🔗 Supported Networks & Integrations
-- ✅ **Sei Network**
-- ✅ **Ethereum & Polygon**
-- ✅ **Allora & Zerepy**
-- ✅ **CoinGecko, OpenSea, Polymarket**
-- ✅ **ERC-20 & NFT Standards**
+
+✔ **Sei Network, Ethereum, and Polygon**  
+✔ **Allora AI & Zerepy Security**  
+✔ **CoinGecko, OpenSea, and Polymarket**  
+✔ **ERC-20 & NFT Standards**  
+✔ **News() Plugin for Live News Updates**  
+
+SoniBo makes **crypto transactions, NFT trading, and financial decision-making effortless**, ensuring a **secure and intelligent blockchain experience—right from WhatsApp.** 🚀
+
 
 ## ⚡ Challenges & Solutions
 
